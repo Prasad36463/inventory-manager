@@ -108,4 +108,4 @@ Inventory error: Only 70 in stock, cannot remove 500
 - Unit tests for the `Inventory` class
 
 ## Author
-Name: ____________________  Roll No: ________  Class: ________
+Name: tanmay   Roll No: 50  Class: CS
