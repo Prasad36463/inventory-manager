@@ -1,0 +1,144 @@
+No data file found, starting with empty inventory.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 2
+  (empty)
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 1
+Item ID: 1
+Name: Pen
+Quantity: 100
+Price: 10
+Perishable? (y/n): n
+Item added.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 1
+Item ID: 2
+Name: Notebook
+Quantity: 50
+Price: 45.5
+Perishable? (y/n): n
+Item added.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 1
+Item ID: 3
+Name: Milk
+Quantity: 20
+Price: 28
+Perishable? (y/n): y
+Expiry (YYYY-MM-DD): 2026-12-01
+Item added.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 1
+Item ID: 1
+Name: Duplicate
+Quantity: 5
+Price: 5
+Perishable? (y/n): n
+Inventory error: Item ID 1 already exists
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 1
+Item ID: 4
+Name: Bad
+Quantity: -5
+Price: 10
+Perishable? (y/n): n
+Inventory error: Quantity cannot be negative
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 2
+    1 | Pen            | qty  100 | Rs    10.00 | Normal
+    2 | Notebook       | qty   50 | Rs    45.50 | Normal
+    3 | Milk           | qty   20 | Rs    28.00 | Perishable (exp 2026-12-01)
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 3
+Name contains: Milk
+    3 | Milk           | qty   20 | Rs    28.00 | Perishable (exp 2026-12-01)
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 5
+Item ID: 3
+Quantity to remove: 20
+Stock updated.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 5
+Item ID: 1
+Quantity to remove: 30
+Stock updated.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 5
+Item ID: 1
+Quantity to remove: 500
+Inventory error: Only 70 in stock, cannot remove 500
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 5
+Item ID: 9
+Inventory error: Item ID 9 not found
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 4
+Item ID: 2
+Quantity to add: 25
+Stock updated.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 6
+Item ID: 2
+New price: 50
+Price updated.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 6
+Item ID: 2
+New price: xyz
+Input error: 'xyz' is not a valid number
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 9
+Invalid menu choice.
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 2
+    1 | Pen            | qty   70 | Rs    10.00 | Normal
+    2 | Notebook       | qty   75 | Rs    50.00 | Normal
+    3 | Milk           | qty    0 | Rs    28.00 | Perishable (exp 2026-12-01)
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 0
+Saved 3 item(s) to inventory_data.csv
+Goodbye!
+
+
+########## RUN 2 (restart, data reloaded from file) ##########
+
+Loaded 3 item(s) from inventory_data.csv
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 2
+    1 | Pen            | qty   70 | Rs    10.00 | Normal
+    2 | Notebook       | qty   75 | Rs    50.00 | Normal
+    3 | Milk           | qty    0 | Rs    28.00 | Perishable (exp 2026-12-01)
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 3
+Name contains: Milk
+    3 | Milk           | qty    0 | Rs    28.00 | Perishable (exp 2026-12-01)
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 3
+Name contains: Laptop
+  No item matches 'Laptop'
+
+== INVENTORY MENU: 1 Add | 2 List | 3 Search | 4 Stock in | 5 Stock out | 6 Price | 0 Save & exit ==
+Choice: 0
+Saved 3 item(s) to inventory_data.csv
+Goodbye!
