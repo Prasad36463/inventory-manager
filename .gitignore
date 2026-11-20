@@ -1,0 +1,6 @@
+# compiled output
+inventory
+inventory.exe
+*.o
+# runtime data file (a sample is kept in sample_data/)
+/inventory_data.csv
